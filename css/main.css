@@ -1,24 +1,3 @@
-/* Hi, good day. My name is Kwency Maye Dahilan, currently an IDP3 Level 1 student and this is my FIP.  I dedicate this project to my family, friends, loved ones, and props to all my professors who helped me gain insights and pushing me to do better. I aspire to be a UI/UX Designer or Web Designer in the future and I really hope to reach that success. I have a strong confidence that with Fanshawe's quality of education and with the teacher's encouragement and high-level skills, my ONE DAY will become DAY ONE soon. :) I try to be as organized as possible in my css so enjoy!*/
-
-/* Table of Contents
-
-  	1. General Styles
-    2. Grid
-    3. Header
-	4. Main Navigation
-	5. Hero
-	6. Modal for Gift Certificate
-	7. Menu/Products
-	8. Services
-	9. Map Address
-	10. Contact Form - Email Form 
-	11a. Footer - Social Media
-	11b. Footer - Opening Hours
-	11c. Footer - About Us
-	11d. Footer - Contact Us
-	11e. Footer - Newsletter
-	
-*/
 
 /*  --- 1. General Styles ---- */
 
@@ -240,6 +219,8 @@ a {
     height: 360px;
 }
 
+/* Features */
+
 .feature {
     color: #F6871F;
 	text-align: center;
@@ -280,6 +261,74 @@ a {
     margin-top: 5px;
     height: 60px;
     width: 60px;
+}
+
+/* About Us */
+
+/* .column {
+    display: flex;
+    float: left;
+    padding: 10px;
+   
+}
+  
+.left {
+    /* background-color: #B29961; */
+    /* width: 60%;
+    height: 700px;
+  }
+  
+.right {
+    background-color: pink;
+    width: 35%;
+    height: 700px;
+} */ 
+
+#aboutUs {
+    background-color: #FBE08D;
+    font-size: 16px;
+    height: 800px;
+}
+
+@media screen and (max-width: 320px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+.left {
+    margin-top: 30px;
+    text-align: center;
+    
+    grid-column:  1/8;
+}
+
+.column p {
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 30px;
+}
+
+.column h3 {
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.about-us-image {
+    margin-top: 20px;
+    max-width: 80%;
+    border-radius: 20px;
+}
+
+
+.right {
+    margin-top: 30px;
+    text-align: center;
+    /* background-color: pink; */
+    
+    grid-column:  8/-1;
 }
 
 
