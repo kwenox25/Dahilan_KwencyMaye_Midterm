@@ -418,15 +418,51 @@ a {
     color: white;
   }
 
-  /* Define the different progress bars based on the percentage value */
-  .progress-bar-92 {
+/* Define the different progress bars based on the percentage value */
+.progress-bar-92 {
     width: 92%;
-  }
+}
 
-  .progress-bar-95 {
+.progress-bar-95 {
     width: 95%;
-  }
+}
 
-  .progress-bar-100 {
+.progress-bar-100 {
     width: 100%;
-  }
+}
+
+/* Partners */
+
+#ourPartners {
+    background-color: #fff;
+    height: 600px;
+}
+#ourPartners h2 {
+    padding-top: 50px;
+    margin-top: 0;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+.companyLogo {
+    
+    list-style-type: none;
+}
+
+.companyLogo ul {
+    width: 100%;
+    align-items: center;
+    align-self: center;
+}
+.companyLogo li { 
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0 20px 0px 50px;
+    overflow: hidden;
+}
+  
+
+
