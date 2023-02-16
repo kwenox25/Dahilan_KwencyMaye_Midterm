@@ -216,7 +216,7 @@ a {
 
 #features-con {
     background-color: #E3F4EE;
-    height: 360px;
+    height: 430px;
 }
 
 /* Features */
@@ -474,12 +474,7 @@ a {
     overflow: hidden;
 }
 
-/* Location */
-#mapLocation iframe {
-    width: 1200px;
-    height: 450px;
-    border: 0;
-}
+
 
 #testimonialsCon {
     grid-row: 2/3;
