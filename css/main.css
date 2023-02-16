@@ -492,7 +492,7 @@ a {
     flex-direction: row;
     position: absolute;
     width: 957px;
-    height: 460px;
+    height: 420px;
     z-index: 3;
     background-color: #2c2c2c;
     /* background-image: url(../images/subsribe-image.png); */
@@ -558,7 +558,7 @@ a {
 #testimonialH4 {
     color: white;
     margin-top: 0;
-   
+    
     font-size: 20px;
     font-weight: 300;
     text-align: left;
@@ -580,11 +580,120 @@ a {
     margin-left: 5px;
     margin-right: 5px;
 }
+
+#testimonial-controls {
+    grid-column: 2/3;
+}
+
+.dot {
+	background-color: #dddddd;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	
+  }
+
 /* Footer */
 #footer-con {
     height: 500px;
-	background-color: #F6871F;
+	background-color: #7C9b58;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	/* position: relative; */
 }
+
+#footer {
+    margin-top: 230px;
+}
+
+#footer-logo {
+   
+	grid-column: 2/6;
+	
+}
+#footer-newsletter {
+    margin-top: 5px;
+	grid-column: 2/6;
+	
+}
+
+#footer-center {
+    
+    grid-column: 6/8;
+}
+
+#footer-right {
+    color: white;
+    grid-column: 9/-1;
+}
+
+#footer-nav ul li {
+    list-style: none;
+    margin-bottom: 15px;
+   
+}
+
+#footer-nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer-icons ul
+{
+    padding-left: 0;
+}
+#footer-icons ul li {
+   
+    font-size: 30px;
+    list-style: none;
+    display: inline;
+}
+
+#footer-icons ul li i {
+   
+   font-size: 40px;
+   margin-right: 25px;
+}
+
+#footer-newsletter input {
+	width: 300px;
+	height: 30px;
+    padding: 6px;
+    border: 3px solid #F6871F;
+    /* border-radius:  5px; */
+    background-color: #f7f7f7;
+    margin-bottom: 15px;
+    font: inherit;
+}
+
+#footer-newsletter h4 {
+    color: white;
+	margin-left: 0;
+}
+#footer-newsletter textarea {
+    height: 300px;
+}
+
+#footer-newsletter label {
+    color: white;
+	font-size: 26px;
+}
+
+#footer-newsletter input[type="submit"] {
+    width: 318px;
+	height: 45px;
+    background-color: #F6871F;
+    color: #fff;
+    border: none;
+    transition: all 200ms ease-in;
+	font: inherit;
+}
+
+#footer-newsletter1 input[type="submit"]:hover {
+    background-color: darkred;
+    border-radius: 0;
+}
+
+
+
+
