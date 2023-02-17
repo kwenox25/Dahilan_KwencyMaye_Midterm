@@ -617,7 +617,7 @@ a {
 }
 
 #footer-right {
-    color: white;icons
+    color: white;
     grid-column: 9/-1;
 }
 
@@ -660,9 +660,10 @@ a {
     font: inherit;
 }
 
-#footer-newsletter h4 {
+#footer-newsletter h3 {
     color: white;
 	margin-left: 0;
+    font-weight: 300;
 }
 #footer-newsletter textarea {
     height: 300px;
