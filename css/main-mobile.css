@@ -603,12 +603,15 @@ a {
     font: inherit;
 }
 
-#footer-newsletter h4 {
+#footer-newsletter h3 {
     color: white;
 	margin: 0 auto;
     text-align: center;
     font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 10px;
 }
+
 #footer-newsletter textarea {
     height: 300px;
 }
@@ -682,4 +685,96 @@ a {
    
    font-size: 40px;
    margin-right: 25px;
+}
+
+/* Contact Page */
+#hero-contact {
+    grid-column: 1/-1;
+    height: 200px;
+    text-align: center;
+    color: white;
+    background-image: url(../images/mobile-contact-bg.jpg);
+}
+
+#hero-contact h2 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#hero-contact p {
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Contact form */
+
+#company-contact-info {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/-1;
+    margin-top: 100px;
+    grid-row: 1/3;
+    background-color: #fff;
+    height: 380px;
+    border-radius: 50px;
+    background-color: #F6871F;
+    /* background-image: url(../images/Contact-form-image.jpg); */
+}
+
+#contact-form-fields-right {
+    background-color: #73babf;
+}
+
+#contact-form-fields-right form {
+    grid-row: 2/3;
+    height: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 50px;
+    background-color: white;
+    /* background-image: url(../images/Contact-form-image.jpg); */
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/-1;
+    padding: 50px 50px 50px 50px;
+}
+
+#contact-form-fields-right input, textarea {
+    padding: 6px;
+    /* border: 5px solid #f1c761; */
+    border-radius:  15px;
+    background-color: #f7f7f7;
+    margin-bottom: 10px;
+   
+    font-size: 14px;
+    border-style: none;
+}
+
+#contact-form-fields-right textarea {
+    height: 250px;
+}
+
+#contact-form-fields-right label {
+    color: #2c2c2c;
+	font-size: 14px;
+}
+
+#contact-form-fields-right input[type="submit"] {
+    width: 272px;
+    padding: 16px 32px;
+    background-color: #f1c761;
+    color: #fff;
+    border: none;
+    transition: all 200ms ease-in;
+    font-size: 14px;
+}
+
+#contact-form-fields-right input[type="submit"]:hover {
+    background-color: darkred;
+    
 }

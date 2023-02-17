@@ -617,7 +617,7 @@ a {
 }
 
 #footer-right {
-    color: white;
+    color: white;icons
     grid-column: 9/-1;
 }
 
@@ -692,6 +692,7 @@ a {
 /* Contact form */
 #hero-contact {
     height: 250px;
+
     background-image: url(../images/hero-contact-image.png);
 }
 
@@ -750,6 +751,9 @@ a {
     /* background-image: url(../images/Contact-form-image.jpg); */
 }
 
+#contact-form-fields-right {
+    background-color: #aae4e8;
+}
 #contact-form-fields-right form {
     grid-row: 2/3;
     height: 400px;
